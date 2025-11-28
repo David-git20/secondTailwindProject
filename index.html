@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+    <head>  
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="./dist/output.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cossette+Titre:wght@400;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+         
+ <style>
+     .cossette-titre{
+        font-family: "Cossette Titre", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+         }
+    .second-bold{
+        font-family: "Cossette Titre", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+         }
+    .bungee-font{
+        font-family: "Bungee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+            }
+     .bebas{
+        font-family: "Bebas Neue", sans-serif;
+         font-weight: 400;
+        font-style: normal;
+          }
+          .cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+        </style>
+    </head>
+    <body>  
+        <!-- <h1 class="cossette-titre text-6xl">RAVERON</h1>
+        <h1 class="second-bold text-6xl">RAVERON</h1>
+        <h1 class="Bungee-font text-6xl">RAVERON</h1> -->
+
+        <Header>
+            <nav class="hidden lg:flex gap-x-16 mx-4 items-center">
+                <h1 class="cinzel-decorative-bold pt-8 pb-4 lg:text-[10rem] leading-none"><a href="index.html">Veloce</a></h1>
+                <div>
+                    <p class="bebas text-3xl">The zero-proof aperitif for modern living.</p>
+                    <ul class="cinzel-decorative-bold flex justify-between border-t-1 mt-14 w-[32rem] text-2xl ">
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./find.html">Find stocklist</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="lg:hidden flex justify-between m-4">
+                <h1 class="text-[3rem] md:text-[5rem] cinzel-decorative-bold"><a href="index.html">Veloce</a></h1>
+                 <button id="menu-btn" class="text-3xl focus:outline-none">&#9776;</button>
+                  <div id="mobile-menu" class="lg:hidden hidden flex-col items-center space-y-6 py-6 text-2xl bg-white">
+                <a href="./about.html">About</a>
+                 <a href="./find.html">Find stocklist</a>
+                <a href="#">Contact</a>
+                  </div>
+
+            </nav>
+    <div class="w-full h-9 md:h-12 bg-[repeating-conic-gradient(#000_0_25%,#fff_0_50%)] [background-size:40px_40px]"></div>
+
+            <section class="md:flex w-full md:h-[32rem] border-t-white ">
+                <div class="bebas bg-[#E1B27D]  md:w-[35%] h-full text-2xl md:text-4xl p-6 md:p-8">
+                  <h4 class="tracking-wide">The only SPIRIT-FREE aperitif <br> that tastes as good as it <br> makes you feel.</h4>
+                  <button class="mt-10 md:mt-16 text-[1.5rem] border rounded-xl px-8 py-2 bg-black text-[#E1B27D] text-center cursor-pointer">Shop now</button>
+                   
+                </div>
+                <div class="w-full md:w-[65%] h-full">
+                    <img src="/assets/images/battlecreek-coffee-roasters-jsqRp7KkcoU-unsplash.jpg" alt="img" class="h-full w-full object-cover">
+                </div>
+            </section>
+        </Header>
+
+        <main class="">
+            <section class="bebas text-xl md:text-4xl lg:text-6xl md:mx-5 lg:mx-10 p-3 md:p-4 lg:p-10">
+                <h4 class="font-bold tracking-normal leading-normal">Véloce is the ZERO-PROOF aperitif for modern living,<br>crafted with super herbs and nutraceuticals to elevate<br>your well-being, without compromising the sophisticated<br>ritual of the aperitif.</h4>
+                <button class="mt-10 text-2xl border rounded-2xl shadow-md py-2 px-8 bg-black text-white text-center hover:shadow-2xl cursor-pointer"><a href="about.html">About us</a></button>
+            </section>
+
+            <section class="h-[35rem] md:h-[50rem] w-full relative bebas">
+                <img src="assets/images/first_main.jpg" alt="img" class="h-full w-full object-cover">
+                <div class="absolute inset-0 text-white flex flex-col justify-center items-center translate-y-40 md:translate-y-60">
+                     <p class="text-[6rem] md:text-[12rem] leading-none tracking-wide">Primavera</p>
+                   <p class="text-center text-2xl">A bold, spiced aperitif featuring cardamom, ginger,<span class="block">and cinnamon.</span></p>
+                </div>
+               
+            </section>
+
+            <section class="mt-6 px-10 md:grid grid-rows-2 grid-cols-2 gap-8 bebas">
+                <div class="w-full relative">
+                    <img src="assets/images/first_cocktail.jpg" alt="img" class="w-full h-[20rem] md:h-[30rem] lg:h-[45rem] object-cover transition duration-300 hover:blur-sm">
+                    <p class="absolute inset-0 text-white px-6 py-7 text-4xl pointer-events-none">Lavande</p>
+                    <p class="text-lg">A delicate and floral aperitif with notes of lavender and chamomile.</p>
+                    <a href="find.html" class="underline">Find near you</a>
+                </div> 
+                <div  class="w-full relative">
+                    <img src="assets/images/second_cocktail.jpg" alt="img" class="w-full h-[20rem] md:h-[30rem] lg:h-[45rem] object-cover transition duration-300 hover:blur-sm">
+                    <p class="absolute inset-0 text-white px-6 py-7 text-4xl pointer-events-none">Primavera</p>
+                    <p class="text-lg">A refreshing and vibrant aperitif with bright citrus notes.</p>
+                    <a href="find.html" class="underline">Find near you</a>
+                </div>
+                <div class="w-full relative">
+                    <img src="assets/images/first_spezia.jpg" alt="img" class="w-full h-[20rem] md:h-[30rem] lg:h-[45rem] object-cover transition duration-300 hover:blur-sm">
+                    <p class="absolute inset-0 text-white px-6 py-7 text-4xl pointer-events-none">Spezia</p>
+                    <p class="text-lg">A bold, spiced aperitif featuring cardamom, ginger, and cinnamon.</p>
+                    <a href="find.html" class="underline">Find near you</a>
+                </div>
+            </section>
+
+            <section class="bg-[#cd9d65] px-3 text-6xl md:text-9xl bebas mt-2">
+                <h4 class="text-[#5b3d1b]">Lavande</h4>
+                <h4 class="text-[#5b3d1b]">Spezia</h4>
+                <h4 class="text-[#5b3d1b]">Primavera</h4>
+                <h4><a href="find.html">Find us</a></h4>
+            </section>
+
+            <section class="md:flex w-full md:h-[36rem] bebas">
+                <h4 class="w-full md:w-[50%] h-full text-3xl  md:text-4xl px-6 md:px-8 py-5 md:py-10">Experience the refined taste of<br>Véloce. Visit our premium stockists<br>for your next alcohol-free aperitif.</h4>
+                <img src="assets/images/ending_img.jpg" alt="img" class="w-full md:w-[50%] h-full object-cover">
+            </section>
+        </main>
+        <footer class="bg-[#cd9d65] bebas">
+         <div class="md:flex md:gap-x-[20rem] lg:gap-x-[38rem] text-2xl p-6 text-center ">
+            <div class="space-y-4">
+                <a href="#">Find stocklist</a><br>
+                <a href="#">About us</a>
+            </div>
+            <div class="space-y-4">
+                <p>+234-123456789</p>
+                <p>Hello@gmail.com</p>
+            </div>
+         </div>
+        
+            <h1 class="cinzel-decorative-bold mx-6 mt-20 md:mt-12 text-6xl md:text-7xl lg:text-9xl text-center md:text-left">Veloce</h1>
+            <p class="bebas text-lg mx-6 mb-3 text-center md:text-left">company name© 2025 All Rights Reserved</p>
+            <div class="w-full h-10 bg-[repeating-conic-gradient(black_0deg_90deg,transparent_90deg_180deg)] [background-size:40px_40px]"></div>
+
+      
+        </footer>
+
+
+        <script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+    </body>
+    </html>
